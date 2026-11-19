@@ -2,7 +2,7 @@
 
 Quality Inspection | Manufacturing | Continuous Improvement
 
-Live site: https://marusfaulkner.github.io/marcus-faulkner.github.io/
+Live site: [marusfaulkner.github.io](https://marusfaulkner.github.io)
 
 This portfolio highlights experience across high-voltage transformer manufacturing, robotic surgery systems, medical devices, high-volume manufacturing, and operations leadership.
 
