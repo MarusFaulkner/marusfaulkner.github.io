@@ -1,12 +1,11 @@
-# Weekly check of every link on the portfolio page.
-# If anything is broken, opens (or updates) one GitHub issue listing the broken
-# links, which notifies the repo owner by email, the GitHub app and the bell icon.
-name: Weekly link check
+# On-demand check of every link on the portfolio page. There is no timed trigger,
+# so it never runs (or alerts) on its own. Run it from the Actions tab:
+# Link check > Run workflow. If anything is broken, it opens (or updates) one
+# GitHub issue listing the broken links.
+name: Link check
 
 on:
-  schedule:
-    - cron: "17 13 * * 1"   # Mondays 13:17 UTC (7:17 AM Central standard time)
-  workflow_dispatch:         # "Run workflow" button for an on-demand check
+  workflow_dispatch:   # runs only when you click "Run workflow"
 
 permissions:
   contents: read
